@@ -16,7 +16,7 @@ const AfricanBankLogin = () => {
         setLoading(true);            // ← now defined
         try {
             const { data } = await axios.post(
-                'http://localhost:8080/africanbank/api/auth/login',
+                'http://localhost:8080/afribba/api/auth/login',
                 credentials
             );
             alert(data);
